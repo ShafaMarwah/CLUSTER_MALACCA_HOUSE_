@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shafa Marwah Studio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Shafa Marwah Studio -->
+  <link href="assets/img/icon/logo1.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.10.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+ <!-- ======= wa bar ======= -->
+<a target="_blank">
+  <button class="btn-floating whatsapp">
+    <span>0813-2282-8600</span>
+    <a href="https://api.whatsapp.com/send?phone=6281322828600" ><i class="bx bxl-whatsapp"></i></a>
+  </button>
+</a>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="https://sm.shafamarwah.repl.co/" class="nav-link scrollto active"><img src="assets/img/icon/logo1.png"id="logo"></i> <span>About</span></a></li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+
+  </header><!-- End Header -->
+  <main id="main">
+
+
+
+<!-- panorama -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="assets/py/generate.py"></script>
+     <!-- Menentukan tinggi image 360 -->
+     <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+      #pannellum-image-360 {
+          height: 480px;
+      }
+  </style>
+</head>
+
+<body>
+  <div id="pannellum-image-360"></div>
+  <script>
+      // parameter pertama adalah id (target) element
+      // parameter kedua adalah option nya
+      pannellum.viewer('pannellum-image-360', {
+          default: {
+              // scene yang akan ditampilkan pertama kali
+              firstScene: 'd1',
+              author: 'Shafa Marwah Studio',
+              sceneFadeDuration: 1100
+          },
+          scenes: {
+            d1: {
+                  title: 'A',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/nr8j9Dc/2.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": 0,
+                  hotSpots: [
+                      {
+                           "pitch": -10,
+                           "yaw": 14,
+                           type: 'scene',
+                           text: 'B',
+                           sceneId: 'd2'
+                       },
+                       {
+                           "pitch": -2,
+                           "yaw": -20,
+                           type: 'scene',
+                           text: 'Unit Rumah',
+                           sceneId: 'ra1'
+                       },
+                 
+                  ]
+              },
+              d2: {
+                  title: 'B',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/tzKNjzS/3.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                  {
+                           "pitch": -12,
+                           "yaw": -130,
+                           type: 'scene',
+                           text: 'A',
+                           sceneId: 'd1'
+                       },
+                       {
+                           "pitch": -4,
+                           "yaw": -81,
+                           type: 'scene',
+                           text: 'Unit Rumah',
+                           sceneId: 'ra2'
+                       },
+                       {
+                           "pitch": -8,
+                           "yaw": 45,
+                           type: 'scene',
+                           text: 'C',
+                           sceneId: 'd3'
+                       },
+                 
+                  ]
+              },
+              d3: {
+                  title: 'C',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/JqFWRG8/4.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                      {
+                           "pitch": -13,
+                           "yaw": 38,
+                           type: 'scene',
+                           text: 'B',
+                           sceneId: 'd2'
+                       },
+
+                       {
+                           "pitch": -7,
+                           "yaw": 212,
+                           type: 'scene',
+                           text: 'D',
+                           sceneId: 'd4'
+                       },
+                 
+                  ]
+              },
+              d4: {
+                  title: '4',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/pLsxGBB/5.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                       {
+                           "pitch": -7,
+                           "yaw": -17,
+                           type: 'scene',
+                           text: 'C',
+                           sceneId: 'd3'
+                       },
+
+                  ]
+              },
+              ra1: {
+                  title: 'Ruang Keluarga',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/QfGJpwN/in1.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                       {
+                           "pitch": -3,
+                           "yaw": 57,
+                           type: 'scene',
+                           text: 'Depan Unit',
+                           sceneId: 'd1'
+                       },
+                       {
+                           "pitch": -25,
+                           "yaw": 224,
+                           type: 'scene',
+                           text: 'kolidor area makan',
+                           sceneId: 'rb1'
+                       },
+
+                 
+                  ]
+              },
+              rb1: {
+                  title: 'kolidor area makan',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/fdBLNnV/in2.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                      {
+                           "pitch": -5,
+                           "yaw": -64,
+                           type: 'scene',
+                           text: 'Taman',
+                           sceneId: 'rd1'
+                       },
+                       {
+                           "pitch": -18,
+                           "yaw": -15,
+                           type: 'info',
+                           text: 'kitchen set',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -40,
+                           "yaw": 120,
+                           type: 'info',
+                           text: 'Meja Makan',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -30,
+                           "yaw": 20,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc1'
+                       },{
+                           "pitch": -35,
+                           "yaw": -150,
+                           type: 'scene',
+                           text: 'Ruang Keluarga',
+                           sceneId: 'ra1'
+                       },
+                      
+                 
+                  ]
+              },
+              rd1: {
+                  title: 'Taman',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/85p0cfw/in3.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -10,
+                           "yaw": 100,
+                           type: 'scene',
+                           text: 'kolidor area makan',
+                           sceneId: 'rb1'
+                       },
+                      
+                 
+                  ]
+              },
+              rc1: {
+                  title: 'Kolidor Kamar',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/hyN1Wnt/in4.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -27,
+                           "yaw": -66
+                           ,
+                           type: 'scene',
+                           text: 'Kolidor Area Makan',
+                           sceneId: 'rb1'
+                       },
+                       {
+                           "pitch": -20,
+                           "yaw": 0
+                           ,
+                           type: 'info',
+                           text: 'Kitchen set',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -10,
+                           "yaw": 95
+                           ,
+                           type: 'scene',
+                           text: 'Kamar 1',
+                           sceneId: 're1'
+                       },
+                       {
+                           "pitch": -7,
+                           "yaw": -200
+                           ,
+                           type: 'scene',
+                           text: 'Kamar 2',
+                           sceneId: 'rf1'
+                       },
+                       {
+                           "pitch": -7,
+                           "yaw": -140
+                           ,
+                           type: 'scene',
+                           text: 'wc',
+                           sceneId: 'rg1'
+                       },
+                 
+                  ]
+              },
+              re1: {
+                  title: 'Kamar 1',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/F5sjqqr/in5.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -5,
+                           "yaw": 49
+                           ,
+                           type: 'scene',
+                           text: 'Kolidor kamar',
+                           sceneId: 'rc1'
+                       },
+                 
+                  ]
+              },
+              rf1: {
+                  title: 'Kamar 2',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/HKBK3Fd/in6.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -6,
+                           "yaw": 190
+                           ,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc1'
+                       },
+                      
+                 
+                  ]
+              },
+              rg1: {
+                  title: 'WC',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/Z8RhTf8/in7.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -6,
+                           "yaw": 72
+                           ,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc1'
+                       },
+                      
+                 
+                  ]
+              },
+
+              
+
+
+              ra2: {
+                  title: 'Ruang Keluarga',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/QfGJpwN/in1.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                       {
+                           "pitch": -3,
+                           "yaw": 57,
+                           type: 'scene',
+                           text: 'Depan Unit',
+                           sceneId: 'd2'
+                       },
+                       {
+                           "pitch": -25,
+                           "yaw": 224,
+                           type: 'scene',
+                           text: 'kolidor area makan',
+                           sceneId: 'rb2'
+                       },
+
+                 
+                  ]
+              },
+              rb2: {
+                  title: 'kolidor area makan',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/fdBLNnV/in2.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                      {
+                           "pitch": -5,
+                           "yaw": -64,
+                           type: 'scene',
+                           text: 'Taman',
+                           sceneId: 'rd2'
+                       },
+                       {
+                           "pitch": -18,
+                           "yaw": -15,
+                           type: 'info',
+                           text: 'kitchen set',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -40,
+                           "yaw": 120,
+                           type: 'info',
+                           text: 'Meja Makan',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -30,
+                           "yaw": 20,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc2'
+                       },{
+                           "pitch": -35,
+                           "yaw": -150,
+                           type: 'scene',
+                           text: 'Ruang Keluarga',
+                           sceneId: 'ra2'
+                       },
+                      
+                 
+                  ]
+              },
+              rd2: {
+                  title: 'Taman',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/85p0cfw/in3.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -10,
+                           "yaw": 100,
+                           type: 'scene',
+                           text: 'kolidor area makan',
+                           sceneId: 'rb2'
+                       },
+                      
+                 
+                  ]
+              },
+
+
+              rc2: {
+                  title: 'Kolidor Kamar',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/hyN1Wnt/in4.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -27,
+                           "yaw": -66
+                           ,
+                           type: 'scene',
+                           text: 'Kolidor Area Makan',
+                           sceneId: 'rb2'
+                       },
+                       {
+                           "pitch": -20,
+                           "yaw": 0
+                           ,
+                           type: 'info',
+                           text: 'Kitchen set',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -10,
+                           "yaw": 95
+                           ,
+                           type: 'scene',
+                           text: 'Kamar 1',
+                           sceneId: 're2'
+                       },
+                       {
+                           "pitch": -7,
+                           "yaw": -200
+                           ,
+                           type: 'scene',
+                           text: 'Kamar 2',
+                           sceneId: 'rf2'
+                       },
+                       {
+                           "pitch": -7,
+                           "yaw": -140
+                           ,
+                           type: 'scene',
+                           text: 'wc',
+                           sceneId: 'rg2'
+                       },
+                 
+                  ]
+              },
+              re2: {
+                  title: 'Kamar 1',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/F5sjqqr/in5.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -5,
+                           "yaw": 49
+                           ,
+                           type: 'scene',
+                           text: 'Kolidor kamar',
+                           sceneId: 'rc2'
+                       },
+                 
+                  ]
+              },
+              rf2: {
+                  title: 'Kamar 2',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/HKBK3Fd/in6.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -6,
+                           "yaw": 190
+                           ,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc2'
+                       },
+                      
+                 
+                  ]
+              },
+              rg2: {
+                  title: 'WC',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/Z8RhTf8/in7.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+
+                       {
+                           "pitch": -6,
+                           "yaw": 72
+                           ,
+                           type: 'scene',
+                           text: 'kolidor kamar',
+                           sceneId: 'rc2'
+                       },
+                      
+                 
+                  ]
+              },
+             
+
+
+
+
+
+              
+          }
+      });
+  </script>
+</script>
+   <!-- ======= Portfolio Section ======= -->
+   <section id="portfolio" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Cluster Malacca house</h2>
+        <p>Rancamanyar</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">semua</li>
+            <li data-filter=".filter-ex">arsitektur</li>
+            <li data-filter=".filter-in">Interior</li>
+            <li data-filter=".filter-lan">Layout</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tampak Depan</h4>
+              <p>Malacca house</p>
+              <div   class="portfolio-links">
+                <a href="assets/img/portfolio/ex/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 1"><i class="bx bx-plus"></i></a>
+                <a href="rt1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tampak Depan</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/ex/a2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tampak Depan"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Living room</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR 1"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Carport"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/ex/c1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 3"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tampak Belakang"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dapur</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="R. Keluarga"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/ex/d1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 4"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tampak Samping"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Living Room</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/e2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="KAMAR TIDUR"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Carport"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/ex/e1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 5"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Balkon"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>R. Makan</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/ex/f1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 6"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Carport"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dapur</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kolidoor Depan"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Kolidor Dapur</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="R. Keluarga"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Kamar Utama</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Utama"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Kamar Utama</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Utama"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>WC</h4>
+              <p>Lantai 2</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Anak"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kitchen"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a10.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Taman</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Anak"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/in/a11.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Taman</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/in/a11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Tamu"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kitchen"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kitchen"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/ex/a9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Area Cluster</h4>
+              <p>Malacca house</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/ex/a9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kitchen"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-lan">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lan/d1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Denah Unit</h4>
+              <p></p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/lan/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/lan/d1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Denah Lantai 1"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-lan">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lan/d2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Denah Unit</h4>
+              <p>Isometri</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/lan/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/lan/d2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Denah Lantai 1"><i class="bx bx-plus"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+<!-- footer -->
+
+<footer id="footer" class="bg-one">
+  <div class="top-footer">
+    <h2>Shafa Marwah Studio</h2>
+    <h3>design and build</h3><br><br><br>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <img src="assets/img/icon/logo2.png" id="img-foot" alt="">
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <!-- <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <h3>layanan kami</h3>
+          <p>shafa marwah studio adalah Perusahaan Jasa Arsitek yang berkantor di Bandung, cakupan pelayanan seluruh Dunia, bisa 100% online.</p>
+        </div> -->
+        <!-- End of .col-sm-3 -->
+
+        <!-- <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+              <h3>Alamat Kantor</h3>
+           <p> perum puri kumala residence no. 3c, kec. ujungberung, kota bandung, 444444</p>
+        </div> -->
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-lg-3 col-md-6">
+              <h3>Connect with us Socially</h3>
+            <br>
+            <br>
+            <div class="social-links">
+              <a href="https://api.whatsapp.com/send?phone=6281322828600" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/shafa_marwah.studio/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+        
+        </div>
+        <!-- End of .col-sm-3 -->
+
+      </div>
+    </div> <!-- end container -->
+  </div>
+  <br><br><br>
+  <div class="footer-bottom">
+    <c>&copy; Copyright 2023. All rights reserved.</c><br>
+    <c>Design and Developed by <a href="">shafa marwah studio</a></c>
+  </div>
+</footer> <!-- end footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+    }
+  
+  </script>
+
+</body>
+
+</html>
